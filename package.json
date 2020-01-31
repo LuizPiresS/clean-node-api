@@ -1,0 +1,8 @@
+{
+  "name": "clean-node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kw13code/clean-node-api.git",
+  "author": "Luiz Pires <luiz@kw13.com.br>",
+  "license": "MIT"
+}
