@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:kw13code/clean-node-api.git",
   "author": "Luiz Pires <luiz@kw13.com.br>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "git-commit-msg-linter": "^2.3.11"
+  }
 }
