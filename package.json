@@ -6,6 +6,8 @@
   "author": "Luiz Pires <luiz@kw13.com.br>",
   "license": "MIT",
   "devDependencies": {
-    "git-commit-msg-linter": "^2.3.11"
+    "@types/node": "^13.7.0",
+    "git-commit-msg-linter": "^2.3.11",
+    "typescript": "^3.7.5"
   }
 }
