@@ -5,6 +5,10 @@
   "repository": "git@github.com:kw13code/clean-node-api.git",
   "author": "Luiz Pires <luiz@kw13.com.br>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:staged": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^25.1.1",
     "@types/node": "^13.7.0",
@@ -22,8 +26,5 @@
     "lint-staged": "^10.0.7",
     "ts-jest": "^25.1.0",
     "typescript": "^3.7.5"
-  },
-  "scripts": {
-    "test": "jest"
   }
 }
