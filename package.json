@@ -6,8 +6,8 @@
   "author": "Luiz Pires <luiz@kw13.com.br>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "devDependencies": {
     "@types/jest": "^25.1.1",
