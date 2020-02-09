@@ -53,6 +53,7 @@ const makeSut = (): SutTypes => {
     addAccountStub
   }
 }
+
 describe('SignUp Controller', () => {
   test('Should return 400 if no name is provided', async () => {
     const { sut } = makeSut()
