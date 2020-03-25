@@ -10,7 +10,6 @@ jest.mock('bcrypt', () => ({
   async compare (): Promise<boolean> {
     return new Promise(resolve => resolve(true))
   }
-
 }))
 
 const salt = 12
