@@ -5,10 +5,10 @@ import { BcryptAdapter } from './bcrypt-adapter'
 // Mocka a função hash de Bcrypt para que ela retorne um valor fixo
 jest.mock('bcrypt', () => ({
   async hash (): Promise<string> {
-    return new Promise(resolve => resolve('valid_hash'))
+    return await new Promise(resolve => resolve('valid_hash'))
   },
   async compare (): Promise<boolean> {
-    return new Promise(resolve => resolve(true))
+    return await new Promise(resolve => resolve(true))
   }
 }))
 
