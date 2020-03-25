@@ -104,6 +104,8 @@ dist/
 # DynamoDB Local files
 .dynamodb/
 
+#Mongo local files
+data
 # Temporary folders
 tmp/
 temp/
